@@ -1,0 +1,13 @@
+- Latihan 1 (Installasi & Konfiguraasi Tailwind) -
+
+- Cara Installasi:
+  - npm i -y
+    - Untuk membuat file package.json secara automatice
+  - npm i -D tailwindcss postcss autoprefixer
+    - Untuk menginstall library dev dependencies tailwind, postcss, dan autoprefixer
+  - npm tailwindcss init
+    - Untuk menginisialisasi nya supaya kita memiliki file konfigurasi tailwind
+  - npx tailwindcss -i ./input.css -o ./output.css --watch
+  - npx tailwindcss -i ./src/css/input.css -o ./public/css/style.css --watch
+    - Untuk merender / membuat file output.css bawaan tailwindcss
+  - npx tailwindcss -o ./public/css/final.css --minify

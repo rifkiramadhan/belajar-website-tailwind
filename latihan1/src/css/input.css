@@ -1,0 +1,8 @@
+/* CSS Reset Browser */
+@tailwind base;
+
+/* Untuk Membuat Component */
+@tailwind components;
+
+/* Adalah Class2 Utilities Yang Akan Dipakai */
+@tailwind utilities;
