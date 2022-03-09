@@ -14,6 +14,32 @@
     - Jadi semuanya bisa kita buat tanpa meninggalkan codingan HTML kita, jadi kita bahkan tidak perlu menyentuh file CSS
     - Karena semua utility CSS nya sudah menjadi class di HTML
 
+  - CSS Utility Classes and "Separation of Concenrs"
+    - Membuat CSS secara Terpisah
+
+### Fase Pembuatan Tailwind CSS
+
+- Fase 1: "Semantic CSS"
+  - Dimana kita memberikan makna terhadap code kita
+- Fase 2: "Decoupling' style from structure
+  - Memisahkan style dari struktur
+  - Block
+    - Adalah element2 yang secara entitas itu berdiri sendir dan memiliki makna sendiri
+      - header, container, menu, checkbox, input
+  - Element
+    - Adalah bagian dari block yang tidak memiliki arti tersendiri dan secara semantic terikat ke dalam block nya
+      - menu item, list item, checkbox caption, header title
+  - Modifier
+    - Untuk memodifikasi elemen pada tiap keadaan
+      - disabled, highlighted, checked, fixed, size big, color yellow
+- Fase 3: "Content-agnostic CSS components"
+  - Komponen CSS yang tidak bergantung pada konten
+- Fase 4: "Content-agnostic CSS components + Utility classes"
+  - Jadi modifier2 yang sama ditarik menjadi sebuah utility class
+- Fase 5: "Utility-first class"
+  - Semua component dibangun dari utility2 class yang tersedia
+  - Supaya jika ada beragam notifikasi kita hanya membongkar pasang utility2 class nya saja
+
 ### Utilities
 
 - Preflight
