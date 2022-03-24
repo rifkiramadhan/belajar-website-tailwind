@@ -1,0 +1,8 @@
+- Latihan 8 (Functions & Directives) -
+
+- Cara Installasi:
+  - npm i -y
+    - Untuk membuat file package.json secara automatice
+  - npm i tailwindcss
+  - npx tailwindcss init
+  - npm tailwindcss -i ./src/input.css -o ./css/style.css --watch

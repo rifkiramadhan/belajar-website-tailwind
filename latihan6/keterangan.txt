@@ -1,0 +1,7 @@
+- Latihan 6 (Layouting & Responsive Design) -
+
+- Cara Installasi:
+  - npm i -y
+    - Untuk membuat file package.json secara automatice
+  - npm i tailwindcss
+  - npx tailwindcss init

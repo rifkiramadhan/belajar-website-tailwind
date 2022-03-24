@@ -91,5 +91,5 @@
 
 - Web Browser: Google Chrome
 - Code Editor: Visual Studio Code
-- VSCodeExtension: Tailwind CSS IntelliSense
+- VSCodeExtension: Tailwind CSS IntelliSense, Live Preview, PostCSS Language Support
 - Package Manager: NPM (Node.js)
